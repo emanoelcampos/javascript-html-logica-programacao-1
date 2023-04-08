@@ -22,6 +22,15 @@
     }
 
     let numeroPensado = Math.round(Math.random() * 100);
+    console.log(numeroPensado)
+
+    let chute = parseInt(prompt("Qual número você acha qu estou pensando?"));
+
+    if(chute == numeroPensado) {
+        mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+    } else {
+        mostra("Você errou! Eu tinha pensado no " + numeroPensado);
+    }
 </script>
 
 </body>

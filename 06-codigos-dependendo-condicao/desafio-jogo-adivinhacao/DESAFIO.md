@@ -88,6 +88,6 @@ Bom, até aqui foi fornecido o passo a passo de como proceder, agora seguem algu
 
 ### DESAFIOS
 
-1 - Você pode criar uma função ```sorteia``` que recebe um número ```n``` e sorteia um número entre 0 a ```n```, retornando esse valor. Dessa forma, em vez de escrever ```let numeroPensado = Math.round(Math.random() * n);```, você escreveria ```let numeroPensado = sorteia(n);```. Faça essa modificação, criando a nova função e utilize-a.
+1 - Você pode criar uma função `sorteia` que recebe um número `n` e sorteia um número entre 0 a `n`, retornando esse valor. Dessa forma, em vez de escrever `let numeroPensado = Math.round(Math.random() * n);`, você escreveria `let numeroPensado = sorteia(n);`. Faça essa modificação, criando a nova função e utilize-a.
 
 2 - Faça com que seu jogo mostre, quando o usuário errar a tentativa, se o número que ele chutou era maior ou menor ao número pensado pelo programa.
