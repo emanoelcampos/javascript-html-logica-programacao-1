@@ -1,4 +1,4 @@
-#Consolidando seu conhecimento 1
+# Consolidando seu conhecimento 
 
 Vamos criar nosso primeiro jogo! A ideia é que seja um jogo de adivinhação!
 
@@ -86,7 +86,8 @@ Ao abrir o programa no navegador, o usuário será questionado a adivinhar o nú
 
 Bom, até aqui foi fornecido o passo a passo de como proceder, agora seguem alguns desafios para você melhorar o programa. Tente chegar nas respostas e, após isso, compare com a opinião do instrutor!
 
-DESAFIOS
-1 - Você pode criar uma função sorteia que recebe um número n e sorteia um número entre 0 a n, retornando esse valor. Dessa forma, em vez de escrever var numeroPensado = Math.round(Math.random() * n);, você escreveria var numeroPensado = sorteia(n);. Faça essa modificação, criando a nova função e utilize-a.
+### DESAFIOS
+
+1 - Você pode criar uma função ```sorteia``` que recebe um número ```n``` e sorteia um número entre 0 a ```n```, retornando esse valor. Dessa forma, em vez de escrever ```let numeroPensado = Math.round(Math.random() * n);```, você escreveria ```let numeroPensado = sorteia(n);```. Faça essa modificação, criando a nova função e utilize-a.
 
 2 - Faça com que seu jogo mostre, quando o usuário errar a tentativa, se o número que ele chutou era maior ou menor ao número pensado pelo programa.
