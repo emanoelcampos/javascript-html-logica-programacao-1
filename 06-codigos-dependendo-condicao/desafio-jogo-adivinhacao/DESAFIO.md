@@ -1,4 +1,4 @@
-Consolidando seu conhecimento 1
+#Consolidando seu conhecimento 1
 
 Vamos criar nosso primeiro jogo! A ideia é que seja um jogo de adivinhação!
 
@@ -12,13 +12,13 @@ Primeiramente, no arquivo jogo_adivinha.html, pedimos para o computador "pensar"
         document.write("<br>");
     }
 
-    function mostra(frase) {
+    function mostra(mensagem) {
 
-        document.write(frase);
+        document.write(mensagem);
         pulaLinha();
     }
 
-    var numeroPensado = Math.round(Math.random() * 100);
+    let numeroPensado = Math.round(Math.random() * 100);
 </script>
 ``` 
 
@@ -33,15 +33,15 @@ Em seguida, perguntamos para o usuário "chutar" um número, ele deve tentar adi
         document.write("<br>");
     }
 
-    function mostra(frase) {
+    function mostra(mensagem) {
 
-        document.write(frase);
+        document.write(mensagem);
         pulaLinha();
     }
 
-    var numeroPensado = Math.round(Math.random() * 100);
+    let numeroPensado = Math.round(Math.random() * 100);
 
-    var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+    let chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
 
     if(chute == numeroPensado) {
 
@@ -61,15 +61,15 @@ Uma mensagem deve ser mostrada caso o chute tenha sido errado. Por isso, utiliza
         document.write("<br>");
     }
 
-    function mostra(frase) {
+    function mostra(mensagem) {
 
-        document.write(frase);
+        document.write(mensagem);
         pulaLinha();
     }
 
-    var numeroPensado = Math.round(Math.random() * 100);
+    let numeroPensado = Math.round(Math.random() * 100);
 
-    var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+    let chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
 
     if(chute == numeroPensado) {
 
