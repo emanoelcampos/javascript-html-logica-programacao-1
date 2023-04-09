@@ -41,7 +41,6 @@ function verificaChute(){
     
     while(numeroTentativas < numeroMaximoTentativas) {
         if(chute == numeroPensado) {
-            //mostra("Uau! Você acertou em " + numeroTentativas+ " tentativa(s), pois eu pensei no " + numeroPensado+ ".");
             mostraFimJogo();
             break;
         } else {
@@ -56,10 +55,10 @@ function verificaChute(){
                     break;
                 }
             }
-        }if(numeroTentativas == 11) {
+        }
+        if(numeroTentativas == 11) {
             mostraVocePerdeu();
         }
-
     }
         limparTentativa();
         campoChute.focus();
