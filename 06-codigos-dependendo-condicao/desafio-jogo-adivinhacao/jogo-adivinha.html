@@ -5,33 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Adivinhação</title>
-    <link rel="shortcut icon" href="witch-hat.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="witch-hat.ico" type="image/x-icon">  
 </head>
 <body>
 
-<script>
-    function pulaLinha() {
+<h1>titulo do meu site do jogo</h1>
 
-        document.write("<br>");
-    }
 
-    function mostra(mensagem) {
 
-        document.write(mensagem);
-        pulaLinha();
-    }
-
-    let numeroPensado = Math.round(Math.random() * 100);
-    console.log(numeroPensado)
-
-    let chute = parseInt(prompt("Qual número você acha qu estou pensando?"));
-
-    if(chute == numeroPensado) {
-        mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
-    } else {
-        mostra("Você errou! Eu tinha pensado no " + numeroPensado);
-    }
-</script>
-
+<footer>
+    aqui vai ficar meu footer
+</footer>
+<script src="script.js"></script>
 </body>
+
 </html>
