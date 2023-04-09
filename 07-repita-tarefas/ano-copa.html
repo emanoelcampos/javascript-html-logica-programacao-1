@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+
+<script type="text/javascript">
+	
+	function pulaLinha(){
+		document.write("<br>");
+	}
+
+	function mostra(mensagem){
+		document.write(mensagem);
+		pulaLinha();
+	}
+
+    let limiteData = parseInt(prompt("Entre com a data limite"));
+    let anoCopa = 1930;
+
+    while(anoCopa <= limiteData) {
+        mostra("Teve copa em " + anoCopa);
+        anoCopa = anoCopa + 4;
+    }
+    mostra("Todos os anos de copas do mundo até" + limiteData + "foram mostrados!")
+
+</script>
