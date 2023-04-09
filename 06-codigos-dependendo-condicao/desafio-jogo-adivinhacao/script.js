@@ -1,3 +1,5 @@
+alert("Você quer jogar um jogo? ")
+
 function sorteia(n) {
     return Math.round(Math.random() * n) +1 //adicianar o número 100
 }
