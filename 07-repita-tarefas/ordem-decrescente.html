@@ -1,0 +1,24 @@
+<script type="text/javascript">
+	
+	function pulaLinha(){
+		document.write("<br>");
+	}
+
+	function mostra(mensagem){
+		document.write(mensagem);
+		pulaLinha();
+	}
+
+    //imprimir em ordem decrescente todos os números entre 20 e 0;
+    //escrever mensagem de fim de programa
+
+    let contadorNumeros = 20;
+
+    while(contadorNumeros >= 0){
+        mostra(contadorNumeros);
+        contadorNumeros = contadorNumeros - 1;
+    }
+
+    mostra("FIM PROGRAMA NÚMEROS 20 A 0 EM ORDEM DECRESCENTE.")
+
+</script>
