@@ -1,16 +1,28 @@
-<meta charset="utf-8">
+<meta charset="UTF-8">
+<script>
 
-<script type="text/javascript">
-	
-	function pulaLinha(){
-		document.write("<br>");
-	}
+    let loginCadastrado = "emanoelcampos";
+    let senhaCadastrada = "senhaemanoel";
 
-	function mostra(mensagem){
-		document.write(mensagem);
-		pulaLinha();
-	}
+    let tentativasMaxima = 3;
+    let tentativas = 1;
+
+    while(tentativas <= tentativasMaxima) {
+
+        let loginInformado = prompt("Informe seu login");
+        let senhaInformada = prompt("Informe sua senha");
+        if( loginCadastrado == loginInformado && senhaCadastrada == senhaInformada ) {
+         alert("Bem-vindo ao sistema " + loginInformado);
+        break;
+        } else {
+            if(tentativas == 3) {
+                alert("Número permitido de tentativas ultrapassado!");
+            } else {
+                 alert("Login inválido. Tente novamente.");
+            }
+        }
+    tentativas++;
+}
 
     
-
 </script>
