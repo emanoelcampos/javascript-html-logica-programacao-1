@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+<script>
+
+    let totalFamiliares = parseInt(prompt("Quantos familiares você tem?"))
+
+    let somaIdade = 0;
+    let media = 0;
+
+    for(let i = 1; i <= totalFamiliares; i++ ){
+        let idade = parseInt(prompt("Informe a idade do familiar número " + i));
+        somaIdade = somaIdade + idade;     
+    }
+
+    media = somaIdade/totalFamiliares
+        alert(media) 
+    
+    
+</script>
