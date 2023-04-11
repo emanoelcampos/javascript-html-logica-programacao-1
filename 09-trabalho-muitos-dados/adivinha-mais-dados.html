@@ -10,18 +10,22 @@
     let input = document.querySelector("input");
 
     input.focus();
-
-    for(let i = 0; i <= segredos[i]; i++){
-        
-    }
-
+    
+    let achou = false;
     function verifica(){
-        if(input.value == segredo){
-            alert("Você acertou!")
-        } else {
-            alert("Você errou!")
+        for(let i = 0; i < segredos.length; i++){
+
+            if(input.value == segredos[i]){
+                alert("Você acertou!");
+                achou = true;
+                break;
+            } 
         }
 
+        if(achou == false) {
+            alert("Você errou!");
+        }
+        
         input.value = "";
         input.focus();
     }
