@@ -5,7 +5,42 @@
 
 <script>
 
-    let segredos = [3,7,9];
+    function sorteia() {
+        return Math.round(Math.random() * 10);
+    }
+
+    function sorteioNumeros(totalNumeros){
+        let segredos = [];
+        
+        let numero = 1;
+
+        while(numero <= totalNumeros) {
+            
+            let numeroAleatorio = sorteia();
+
+            if(numeroAleatorio != 0) {
+                
+            let achou = false;
+
+            for(let i = 0; i <= segredos.length; i++) {
+                if(segredos[i] == numeroAleatorio) {
+                    achou = true;
+                    break;
+                }
+            }
+
+            if(achou == false) {
+                segredos.push(numeroAleatorio);
+                numero++;
+            }
+            }    
+        }
+        
+        return segredos;
+    }
+
+    let segredos = sorteioNumeros(3);
+    console.log(segredos)
 
     let input = document.querySelector("input");
 
