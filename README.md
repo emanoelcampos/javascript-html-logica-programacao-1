@@ -17,7 +17,7 @@ O curso foi dividido em diversos módulos, cada um com seus respectivos exercíc
 
 ## Minha jornada:
 
-Este repositório é um registro de todo o meu avanço no curso. Ao longo do curso, tive a oportunidade de aplicar esses conceitos através de exercícios e atividades práticas, que foram postados neste repositório. Nesse repositório, você encontrará os exercícios, atividades e desafios realizados por mim durante o curso. Todos eles estão organizados por módulo e podem ser encontrados em suas respectivas pastas.
+Este repositório é um registro de todo o meu avanço no curso. Ao longo do curso, tive a oportunidade de aplicar esses conceitos através de exercícios e atividades práticas. Nesse repositório, você encontrará os exercícios, atividades e desafios realizados por mim durante o curso e todos eles estão organizados por módulo e podem ser encontrados em suas respectivas pastas.
 
 ## Desafio durante o curso:
 
