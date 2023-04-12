@@ -4,6 +4,8 @@ Este repositório é dedicado ao curso de Javascript e HTML para iniciantes em p
 
 ## Os assuntos abordados no curso incluem:
 
+O curso foi dividido em diversos módulos, cada um com seus respectivos exercícios, atividades e um desafio durante o curso. 
+
 - Conceitos fundamentais de programação, como variáveis, condicionais, loops e funções.
 - Introdução ao HTML para criação de páginas web estáticas.
 - Manipulação de elementos HTML utilizando Javascript.
@@ -13,6 +15,14 @@ Este repositório é dedicado ao curso de Javascript e HTML para iniciantes em p
 - Introdução ao desenvolvimento de páginas web dinâmicas e interativas.
 - Desenvolvimento de projetos práticos para consolidar conhecimentos.
 
-Ao longo do curso, tive a oportunidade de aplicar esses conceitos através de exercícios e atividades práticas, que foram postados neste repositório. Além disso, incluí um link para o [repositório do desafio](https://github.com/emanoelcampos/jogo-adivinhacao) feito durante o curso, onde apliquei tudo o que aprendi para criar uma página web com um jogo de adivinhação interativo.
+## Minha jornada:
 
-Este repositório é um registro de todo o meu avanço no curso. Você pode encontrar todas as atividades, exercícios neste repositório e o projeto final [aqui](https://github.com/emanoelcampos/jogo-adivinhacao), juntamente com a documentação do meu progresso. Esperamo que este repositório seja uma referência útil para mim no futuro.
+Este repositório é um registro de todo o meu avanço no curso. Ao longo do curso, tive a oportunidade de aplicar esses conceitos através de exercícios e atividades práticas, que foram postados neste repositório. Nesse repositório, você encontrará os exercícios, atividades e desafios realizados por mim durante o curso. Todos eles estão organizados por módulo e podem ser encontrados em suas respectivas pastas.
+
+## Desafio durante o curso:
+
+O desafio durante o curso consistiu em criar um jogo para interagir com o usuário utilizando os conhecimentos adquiridos ao longo do curso. Para o desafio, desenvolvi um jogo de adivinhação simples em HTML, CSS e JavaScript. Você pode conferir o código da minha solução no [repositório do desafio](https://github.com/emanoelcampos/jogo-adivinhacao).
+
+## Aprendendo:
+
+Este curso me proporcionou uma base sólida para iniciar minha jornada na programação web e me preparou para continuar aprendendo por conta própria. Agradeço à Alura e ao programa One da Oracle por disponibilizarem essa excelente oportunidade de aprendizado.
