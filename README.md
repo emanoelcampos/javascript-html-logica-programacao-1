@@ -1,6 +1,6 @@
 # JavaScript e HTML: desenvolva um jogo e pratique lógica de programação
 
-Este repositório é dedicado ao curso de Javascript e HTML para iniciantes em programação com foco em lógica de programação, oferecido pela [Alura](https://cursos.alura.com.br/user/emanoelcampos) em colaboração com o programa One da Oracle. Durante o curso, aprendi uma variedade de conceitos importantes para o desenvolvimento web e tive a oportunidade de aplicá-los através de exercícios, atividades e um [desafio](https://github.com/emanoelcampos/jogo-adivinhacao) durante o curso.
+Este repositório é dedicado ao primeiro curso de Javascript e HTML para iniciantes em programação com foco em lógica de programação, oferecido pela [Alura](https://cursos.alura.com.br/user/emanoelcampos) em colaboração com o programa One da Oracle. Durante o curso, aprendi uma variedade de conceitos importantes para o desenvolvimento web e tive a oportunidade de aplicá-los através de exercícios, atividades e um [desafio](https://github.com/emanoelcampos/jogo-adivinhacao) durante o curso.
 
 ## Os assuntos abordados no curso incluem:
 
